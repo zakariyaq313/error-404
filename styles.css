@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: #fcb82f;
+    height: 100vh;
+}
+
+img{
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media(max-width: 750px){
+    img{
+        height: 50rem;
+    }
+}
+
+@media(max-width: 480px){
+    img{
+        height: unset;
+        width: 100vw;
+    }
+}
